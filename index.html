@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GameXperience - Sua fonte diária sobre jogos!</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -14,13 +22,13 @@
         <nav>
           <ul>
             <li>
-              <a href="#">Jogos</a>
+              <a href="#game">Jogos</a>
             </li>
             <li>
-              <a href="#">Compre o seu</a>
+              <a href="#contact">Compre o seu</a>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <a href="#contact">Contato</a>
             </li>
           </ul>
         </nav>
@@ -28,78 +36,77 @@
     </header>
     <section id="about">
       <div class="container">
-        <img
-          class="hogwarts"
-          src="/imagens/hogwartslogo.jpg"
-          alt="Logo do Jogo"
-          width="300px"
-        />
-        <img
-          src="/imagens/hogwartsgameplay.jpg"
-          alt="Gameplay do Jogo"
-          width="300px"
-        />
+        <div class="image-container">
+          <img
+            class="store-front"
+            src="/imagens/hogwartslogo.jpg"
+            alt="Logo do Jogo"
+            width="350px"
+          />
+          <img class="store-front" src="/imagens/hogwartsgameplay.jpg"
+          alt="Gameplay do Jogo" width=350px" />
+        </div>
+        <div>
+          <h2 id="game">Sobre o Jogo:</h2>
+          <p>
+            "Hogwarts Legacy" é um aguardado jogo de ação e aventura situado no
+            universo mágico de Harry Potter. Desenvolvido pela Portkey Games e
+            ambientado no final do século XIX, o jogo transporta os jogadores
+            para a famosa Escola de Magia e Bruxaria de Hogwarts.
+          </p>
+          <p>
+            Na história de "Hogwarts Legacy", os jogadores assumem o papel de um
+            estudante recém-chegado a Hogwarts. Como protagonista, você descobre
+            que possui um poderoso dom: a habilidade de dominar a magia antiga e
+            única conhecida como "Bruxaria das Trevas". No entanto, essa dádiva
+            não passa despercebida, e sua jornada envolve explorar os segredos
+            escondidos por trás dos corredores do castelo e desvendar mistérios
+            que podem mudar o destino do mundo mágico.
+          </p>
+          <ul class="brands-list">
+            <li><img src="/imagens/ps4-logo.png" alt="PS4 LOGO" /></li>
+            <li><img src="/imagens/ps5-logo.png" alt="PS5 LOGO" /></li>
+            <li><img src="/imagens/xbox-one-logo.png" alt="XBOX LOGO" /></li>
+            <li>
+              <img src="/imagens/xbox-series-logo.png" alt="XOX SERIES LOGO" />
+            </li>
+            <li><img src="/imagens/Pc_game_logo.png" alt="PC GAMES LOGO" /></li>
+          </ul>
+        </div>
       </div>
-      <h2>Sobre o Jogo:</h2>
-      <p>
-        "Hogwarts Legacy" é um aguardado jogo de ação e aventura situado no
-        universo mágico de Harry Potter. Desenvolvido pela Portkey Games e
-        ambientado no final do século XIX, o jogo transporta os jogadores para a
-        famosa Escola de Magia e Bruxaria de Hogwarts.
-      </p>
-      <p>
-        Na história de "Hogwarts Legacy", os jogadores assumem o papel de um
-        estudante recém-chegado a Hogwarts. Como protagonista, você descobre que
-        possui um poderoso dom: a habilidade de dominar a magia antiga e única
-        conhecida como "Bruxaria das Trevas". No entanto, essa dádiva não passa
-        despercebida, e sua jornada envolve explorar os segredos escondidos por
-        trás dos corredores do castelo e desvendar mistérios que podem mudar o
-        destino do mundo mágico.
-      </p>
-      <ul class="Logos">
-        <li><img src="/imagens/ps4-logo.png" alt="PS4 LOGO" /></li>
-        <li><img src="/imagens/ps5-logo.png" alt="PS5 LOGO" /></li>
-        <li><img src="/imagens/xbox-one-logo.png" alt="XBOX LOGO" /></li>
-        <li>
-          <img src="/imagens/xbox-series-logo.png" alt="XOX SERIES LOGO" />
-        </li>
-        <li><img src="/imagens/Pc_game_logo.png" alt="PC GAMES LOGO" /></li>
-      </ul>
     </section>
     <section id="contact">
       <div class="container">
-        <h2>Contato - Compre o seu!</h2>
         <div class="contact-methods">
-          <h3>Fale Conosco</h3>
-          <form>
-            <input type="text" placeholder="Seu nome" required />
-            <input type="email" placeholder="Seu email:" required />
-            <input type="tel" placeholder="Seu telefone:" />
-            <textarea
-              placeholder="Diga qual modelo de mídia desejado"
-            ></textarea>
-            <button type="Submit">Enviar</button>
-          </form>
+          <h3 class="talk">Fale Conosco</h3>
+            <form>
+              <input type="text" placeholder="Seu nome" required />
+              <input type="email" placeholder="Seu email:" required />
+              <input type="tel" placeholder="Seu telefone:" />
+              <textarea
+                placeholder="Diga qual modelo de mídia desejado"
+              ></textarea>
+              <button type="Submit">Enviar</button>
+            </form>
+          </div>
+          <ul class="social-links">
+            <h3 class="titulo">Nos acompanhe</h3>
+            <li>
+              <a href="#" title="Siga-nos no instagram">
+                <img src="/imagens/instagram.png" alt="Logo do instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="#" title="Siga-nos no Facebook">
+                <img src="/imagens/facebook.png" alt="Logo do Facebook"
+              /></a>
+            </li>
+          </ul>
+        <div class="contact-info">
+          <h3 class="venha">Venha até nós</h3>
+          <p>Rua Avenida Brasil nº 574 - Rosa dos ventos - Rio de Janeiro - RJ</p>
         </div>
       </div>
-      <div>
-        <h3>Nos acompanhe</h3>
-        <ul class="social-links">
-          <li>
-            <a href="#" title="Siga-nos no instagram">
-              <img src="/imagens/instagram.png" alt="Logo do instagram"
-            /></a>
-          </li>
-          <li>
-            <a href="#" title="Siga-nos no Facebook">
-              <img src="/imagens/facebook.png" alt="Logo do Facebook"
-            /></a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>Venha até nós</h3>
-        <p>Rua Avenida Brasil nº 574 - Rosa dos ventos - Rio de Janeiro - RJ</p>
       </div>
     </section>
     <footer>
